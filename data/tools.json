@@ -6,11 +6,11 @@
   "entry_count": 120,
   "category_count": 11,
   "categories": {
-    "Full-Stack LLM Observability Platforms": 18,
+    "Full-Stack LLM Observability Platforms": 19,
     "Open-Source Tracing and Self-Hosted Observability": 9,
     "OpenTelemetry and Interoperability Specifications": 7,
     "AI Gateways and Proxies": 12,
-    "Online Quality Evaluation and Feedback Monitoring": 13,
+    "Online Quality Evaluation and Feedback Monitoring": 12,
     "Agent Observability and Session Replay": 11,
     "Cost, Latency, and Inference Performance Monitoring": 9,
     "Security, Compliance, and Runtime Policy Monitoring": 15,
@@ -44,6 +44,17 @@
       "status": "active",
       "primary_url": "https://arize.com/docs/ax",
       "description": "Arize AX is an enterprise AI observability and evaluation platform for tracing, experiments, online evaluations, drift analysis, and production monitoring across LLM applications and agents.",
+      "secondary_links": []
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--confident-ai",
+      "name": "Confident AI",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.confident-ai.com/",
+      "description": "Confident AI is the AI quality platform built for enterprise platform teams to standardize evals and observability across the org — one consistent bar for how different product teams measure and monitor their AI.",
       "secondary_links": []
     },
     {
@@ -703,17 +714,6 @@
       "status": "active",
       "primary_url": "https://traefik.io/solutions/ai-gateway",
       "description": "Traefik Hub AI Gateway extends Traefik's API management layer with model routing, authentication, rate limiting, token controls, observability, and governance for LLM and agent traffic.",
-      "secondary_links": []
-    },
-    {
-      "id": "online-quality-evaluation-and-feedback-monitoring--confident-ai",
-      "name": "Confident AI",
-      "artifact_type": "tool",
-      "category": "Online Quality Evaluation and Feedback Monitoring",
-      "availability": "commercial",
-      "status": "active",
-      "primary_url": "https://www.confident-ai.com/",
-      "description": "Confident AI is the AI quality platform built for enterprise platform teams to standardize evals and observability across the organization—one consistent bar for how product teams measure and monitor their AI while governance continuously enforces that standard.",
       "secondary_links": []
     },
     {
