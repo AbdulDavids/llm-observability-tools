@@ -1,0 +1,32 @@
+# The Comprehensive List of LLM Observability Tools
+
+> a curated, source-linked directory of open-source and commercial tools for tracing, monitoring, debugging, and evaluating LLM applications and AI agents. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
+
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and follow the same evidence rules.
+
+## Main content
+
+- [Full list](https://raw.githubusercontent.com/aglio-lab/llm-observability-tools/main/README.md): 120 source-linked entries across 11 catalog sections
+- [JSON catalog](https://raw.githubusercontent.com/aglio-lab/llm-observability-tools/main/data/tools.json): structured entity records
+- [CSV catalog](https://raw.githubusercontent.com/aglio-lab/llm-observability-tools/main/data/tools.csv): flat machine-readable index
+- [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/llm-observability-tools/main/MAINTENANCE.md): review schedule and evidence rules
+
+## Key categories
+
+- Full-Stack LLM Observability Platforms (18 entries)
+- Open-Source Tracing and Self-Hosted Observability (9 entries)
+- OpenTelemetry and Interoperability Specifications (7 entries)
+- AI Gateways and Proxies (12 entries)
+- Online Quality Evaluation and Feedback Monitoring (13 entries)
+- Agent Observability and Session Replay (11 entries)
+- Cost, Latency, and Inference Performance Monitoring (9 entries)
+- Security, Compliance, and Runtime Policy Monitoring (15 entries)
+- Cloud and APM Suites with LLM Observability (10 entries)
+- Classic ML and Data Monitoring (7 entries)
+- Discontinued and Historical Tools (9 entries)
+
+## Citation
+
+- [CITATION.cff](https://raw.githubusercontent.com/aglio-lab/llm-observability-tools/main/CITATION.cff)
+- Cite as: “The Comprehensive List of LLM Observability Tools” (2026). GitHub. https://github.com/aglio-lab/llm-observability-tools
+- Cite an individual tool using its own repository, documentation, or paper.

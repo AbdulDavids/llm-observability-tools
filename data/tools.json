@@ -1,0 +1,1608 @@
+{
+  "title": "The Comprehensive List of LLM Observability Tools",
+  "source": "https://github.com/aglio-lab/llm-observability-tools",
+  "license": "CC0-1.0",
+  "last_verified": "2026-07-16",
+  "entry_count": 120,
+  "category_count": 11,
+  "categories": {
+    "Full-Stack LLM Observability Platforms": 18,
+    "Open-Source Tracing and Self-Hosted Observability": 9,
+    "OpenTelemetry and Interoperability Specifications": 7,
+    "AI Gateways and Proxies": 12,
+    "Online Quality Evaluation and Feedback Monitoring": 13,
+    "Agent Observability and Session Replay": 11,
+    "Cost, Latency, and Inference Performance Monitoring": 9,
+    "Security, Compliance, and Runtime Policy Monitoring": 15,
+    "Cloud and APM Suites with LLM Observability": 10,
+    "Classic ML and Data Monitoring": 7,
+    "Discontinued and Historical Tools": 9
+  },
+  "tools": [
+    {
+      "id": "full-stack-llm-observability-platforms--langfuse",
+      "name": "Langfuse",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/langfuse/langfuse",
+      "description": "Langfuse is a self-hostable LLM engineering platform for traces, sessions, evaluations, prompt management, datasets, annotations, and cost analytics, with hosted deployment also available. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://langfuse.com/docs"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--arize-ax",
+      "name": "Arize AX",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://arize.com/docs/ax",
+      "description": "Arize AX is an enterprise AI observability and evaluation platform for tracing, experiments, online evaluations, drift analysis, and production monitoring across LLM applications and agents.",
+      "secondary_links": []
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--opik",
+      "name": "Opik",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/comet-ml/opik",
+      "description": "Opik is Comet's open-source tracing and evaluation platform with a hosted service, datasets, experiments, prompt management, online scoring, dashboards, and agent-focused trace views. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.comet.com/docs/opik/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--helicone",
+      "name": "Helicone",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Helicone/helicone",
+      "description": "Helicone is an open-source observability platform and proxy for logging LLM requests, analyzing sessions, tracking cost and latency, collecting feedback, and running experiments. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.helicone.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--laminar",
+      "name": "Laminar",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/lmnr-ai/lmnr",
+      "description": "Laminar is an open-source platform for tracing, evaluating, and monitoring LLM applications and agents, with OpenTelemetry-based instrumentation, datasets, and browser-agent support. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.lmnr.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--langsmith",
+      "name": "LangSmith",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.langchain.com/langsmith",
+      "description": "LangSmith is LangChain's hosted platform for tracing, debugging, dataset-based evaluation, online evaluators, prompt management, annotation queues, and deployment monitoring across LangChain and non-LangChain applications. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.langchain.com/langsmith"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--weights-biases-weave",
+      "name": "Weights & Biases Weave",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/wandb/weave",
+      "description": "Weights & Biases Weave is an open-source tracing and evaluation toolkit with a managed platform for scorers, datasets, comparisons, prompt iteration, costs, and production monitoring. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://weave-docs.wandb.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--braintrust",
+      "name": "Braintrust",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.braintrust.dev/",
+      "description": "Braintrust is an AI engineering platform for traces, experiments, datasets, prompt iteration, online scoring, user feedback, and production analytics. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.braintrust.dev/docs"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--langwatch",
+      "name": "LangWatch",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/langwatch/langwatch",
+      "description": "LangWatch is an open-source platform for LLM and agent tracing, evaluations, datasets, prompt optimization, and scenario-based simulation testing. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.langwatch.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--honeyhive",
+      "name": "HoneyHive",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.honeyhive.ai/",
+      "description": "HoneyHive is an AI observability and evaluation platform for tracing, datasets, experiments, online evaluators, human feedback, and production quality monitoring. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.honeyhive.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--galileo",
+      "name": "Galileo",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://galileo.ai/",
+      "description": "Galileo is an enterprise evaluation and observability platform for LLM applications and agents with trace analysis, proprietary evaluators, guardrails, experiments, and production monitoring.",
+      "secondary_links": []
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--maxim-ai",
+      "name": "Maxim AI",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.getmaxim.ai/",
+      "description": "Maxim AI is an end-to-end platform for agent simulation, evaluation, tracing, prompt experiments, human review, and production quality monitoring. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.getmaxim.ai/docs"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--freeplay",
+      "name": "Freeplay",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://freeplay.ai/",
+      "description": "Freeplay is an AI product development platform that combines prompt management, testing, evaluation, observability, and human review over production data. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.freeplay.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--parea",
+      "name": "Parea",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/parea-ai/parea-sdk-py",
+      "description": "Parea is an LLM engineering platform with open SDKs for tracing, experiments, evaluations, prompt management, and production monitoring. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.parea.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--traceloop",
+      "name": "Traceloop",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://www.traceloop.com/",
+      "description": "Traceloop is a managed LLM observability platform built around OpenTelemetry instrumentation, with traces, dashboards, evaluations, alerts, and enterprise deployment options. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.traceloop.com/docs"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--lunary",
+      "name": "Lunary",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://lunary.ai/",
+      "description": "Lunary is a hosted toolkit for LLM observability, prompt management, user feedback, analytics, evaluations, and team collaboration, with Python and JavaScript client SDKs. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://lunary.ai/docs"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--agenta",
+      "name": "Agenta",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Agenta-AI/agenta",
+      "description": "Agenta is an open-source LLMOps platform for prompt versioning, experiments, automatic and human evaluation, tracing, and production observability. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.agenta.ai/"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-llm-observability-platforms--posthog-ai-observability",
+      "name": "PostHog AI Observability",
+      "artifact_type": "platform",
+      "category": "Full-Stack LLM Observability Platforms",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://posthog.com/ai-observability",
+      "description": "PostHog AI Observability captures generations, traces, sessions, token usage, cost, latency, and errors as product analytics events that can be correlated with user behavior and session replay. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://posthog.com/docs/ai-observability"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--arize-phoenix",
+      "name": "Arize Phoenix",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Arize-ai/phoenix",
+      "description": "Arize Phoenix is an open-source, OpenTelemetry-based observability and evaluation platform for LLM applications and agents, with trace exploration, datasets, experiments, and evaluators. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://arize.com/docs/phoenix"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--openlit",
+      "name": "OpenLIT",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/openlit/openlit",
+      "description": "OpenLIT is an open-source, OpenTelemetry-native AI engineering platform that auto-instruments LLMs, agents, vector databases, and GPUs and provides traces, metrics, evaluations, and dashboards. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.openlit.io/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--mlflow-tracing",
+      "name": "MLflow Tracing",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/mlflow/mlflow",
+      "description": "MLflow Tracing is an open-source, OpenTelemetry-compatible tracing system for LLM applications and agents with automatic framework integrations, custom spans, trace search, and self-hosted storage. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://mlflow.org/docs/latest/genai/tracing/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--pydantic-logfire",
+      "name": "Pydantic Logfire",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/pydantic/logfire",
+      "description": "Pydantic Logfire is an OpenTelemetry-based observability platform with open SDKs and LLM panels for conversations, tool calls, token usage, cost, latency, errors, logs, and application traces. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://logfire.pydantic.dev/docs/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--langtrace",
+      "name": "Langtrace",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Scale3-Labs/langtrace",
+      "description": "Langtrace is an open-source LLM observability project whose OpenTelemetry-based SDKs collect traces, usage, latency, costs, and evaluation signals for export to Langtrace or another compatible backend. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.langtrace.ai/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--signoz",
+      "name": "SigNoz",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/SigNoz/signoz",
+      "description": "SigNoz is an open-source, OpenTelemetry-native observability backend that can visualize LLM and agent traces, logs, metrics, token usage, latency, and custom alerts alongside application telemetry. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://signoz.io/docs/langchain-observability/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--openobserve",
+      "name": "OpenObserve",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/openobserve/openobserve",
+      "description": "OpenObserve is an open-source observability backend for logs, metrics, and traces that accepts OTLP data and supports LLM dashboards, cost attribution, trace search, and alerts. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://openobserve.ai/docs/integration/ai/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--jaeger",
+      "name": "Jaeger",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/jaegertracing/jaeger",
+      "description": "Jaeger is a CNCF distributed-tracing backend that stores and visualizes OpenTelemetry traces, including GenAI spans when an LLM-specific instrumentation library supplies the attributes. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.jaegertracing.io/docs/"
+        }
+      ]
+    },
+    {
+      "id": "open-source-tracing-and-self-hosted-observability--grafana-tempo",
+      "name": "Grafana Tempo",
+      "artifact_type": "tool",
+      "category": "Open-Source Tracing and Self-Hosted Observability",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/grafana/tempo",
+      "description": "Grafana Tempo is an open-source distributed-tracing backend for OTLP and other trace formats that can store LLM and agent traces and correlate them with Grafana logs and metrics. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://grafana.com/docs/tempo/latest/"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--opentelemetry",
+      "name": "OpenTelemetry",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/open-telemetry/opentelemetry-specification",
+      "description": "OpenTelemetry is a vendor-neutral specification and ecosystem of APIs, SDKs, and tools for generating, processing, and exporting traces, metrics, and logs. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://opentelemetry.io/docs/"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--opentelemetry-genai-semantic-conventions",
+      "name": "OpenTelemetry GenAI semantic conventions",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/open-telemetry/semantic-conventions",
+      "description": "OpenTelemetry GenAI semantic conventions define common attributes, events, metrics, and span structures for model calls, token usage, prompts, responses, agents, tools, and retrieval operations. Registry",
+      "secondary_links": [
+        {
+          "label": "Registry",
+          "url": "https://opentelemetry.io/docs/specs/semconv/registry/attributes/gen-ai/"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--openinference",
+      "name": "OpenInference",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Arize-ai/openinference",
+      "description": "OpenInference is an open specification and collection of OpenTelemetry instrumentation packages for tracing LLM applications, agents, retrieval systems, and model providers. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://arize-ai.github.io/openinference/"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--openllmetry",
+      "name": "OpenLLMetry",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/traceloop/openllmetry",
+      "description": "OpenLLMetry is Traceloop's open-source collection of OpenTelemetry instrumentations for LLM providers, vector databases, and agent frameworks, designed to export to any compatible backend.",
+      "secondary_links": []
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--opentelemetry-protocol-otlp",
+      "name": "OpenTelemetry Protocol (OTLP)",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://opentelemetry.io/docs/specs/otlp/",
+      "description": "OpenTelemetry Protocol (OTLP) is the standard wire protocol for transmitting OpenTelemetry traces, metrics, and logs between SDKs, collectors, and observability backends.",
+      "secondary_links": []
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--opentelemetry-collector",
+      "name": "OpenTelemetry Collector",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector is a vendor-neutral service for receiving, processing, redacting, sampling, and exporting telemetry, including sensitive GenAI traces. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://opentelemetry.io/docs/collector/"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry-and-interoperability-specifications--w3c-trace-context",
+      "name": "W3C Trace Context",
+      "artifact_type": "tool",
+      "category": "OpenTelemetry and Interoperability Specifications",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://www.w3.org/TR/trace-context/",
+      "description": "W3C Trace Context is the web standard for propagating trace identifiers across process and service boundaries through traceparent and tracestate headers.",
+      "secondary_links": []
+    },
+    {
+      "id": "ai-gateways-and-proxies--portkey",
+      "name": "Portkey",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/Portkey-AI/gateway",
+      "description": "Portkey is an open-source AI gateway with a commercial control plane for multi-provider routing, retries, caching, budgets, guardrails, request logs, and observability. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://portkey.ai/docs/"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--litellm",
+      "name": "LiteLLM",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/BerriAI/litellm",
+      "description": "LiteLLM is an open-source Python SDK and proxy that exposes a unified API across model providers and supports routing, fallbacks, rate limits, budgets, spend tracking, and logging callbacks. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.litellm.ai/"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--kong-ai-gateway",
+      "name": "Kong AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://konghq.com/products/kong-ai-gateway",
+      "description": "Kong AI Gateway extends Kong's API gateway with model-provider routing, authentication, rate limiting, semantic controls, observability plugins, and enterprise governance. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://developer.konghq.com/ai-gateway/"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--envoy-ai-gateway",
+      "name": "Envoy AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/envoyproxy/ai-gateway",
+      "description": "Envoy AI Gateway is an open-source project built on Envoy Gateway for routing generative-AI traffic with provider-independent APIs, policy, usage accounting, and Kubernetes integration.",
+      "secondary_links": []
+    },
+    {
+      "id": "ai-gateways-and-proxies--cloudflare-ai-gateway",
+      "name": "Cloudflare AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://developers.cloudflare.com/ai-gateway/",
+      "description": "Cloudflare AI Gateway is a managed proxy for model-provider requests with analytics, logging, caching, rate limiting, retries, and dynamic routing on Cloudflare's network.",
+      "secondary_links": []
+    },
+    {
+      "id": "ai-gateways-and-proxies--vercel-ai-gateway",
+      "name": "Vercel AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://vercel.com/ai-gateway",
+      "description": "Vercel AI Gateway is a managed endpoint for accessing and routing across models with provider failover, usage visibility, budgets, and integration with the Vercel AI SDK. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://vercel.com/docs/ai-gateway"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--truefoundry-ai-gateway",
+      "name": "TrueFoundry AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.truefoundry.com/ai-gateway",
+      "description": "TrueFoundry AI Gateway is an enterprise gateway for model and MCP access with routing, budgets, guardrails, identity-aware controls, audit logs, and self-hosted deployment options. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.truefoundry.com/docs/ai-gateway/"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--gloo-ai-gateway",
+      "name": "Gloo AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://www.solo.io/products/gloo-ai-gateway",
+      "description": "Gloo AI Gateway is Solo.io's Envoy-based gateway for model routing, prompt guards, rate limits, failover, telemetry, and Kubernetes-native policy, with open-source components and enterprise features.",
+      "secondary_links": []
+    },
+    {
+      "id": "ai-gateways-and-proxies--bifrost",
+      "name": "Bifrost",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/maximhq/bifrost",
+      "description": "Bifrost is an open-source Go gateway from Maxim AI that provides a unified model API, routing, fallbacks, caching, budgets, usage logs, Prometheus metrics, and OpenTelemetry export.",
+      "secondary_links": []
+    },
+    {
+      "id": "ai-gateways-and-proxies--openrouter",
+      "name": "OpenRouter",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://openrouter.ai/",
+      "description": "OpenRouter is a managed unified API and routing service for multiple model providers with usage accounting, provider selection, fallbacks, and optional trace broadcasting. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://openrouter.ai/docs"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--keywords-ai",
+      "name": "Keywords AI",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://keywordsai.co/",
+      "description": "Keywords AI is a managed AI gateway and developer platform with multi-provider routing, retries, caching, rate limits, request logs, cost analytics, and evaluations. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.keywordsai.co/"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateways-and-proxies--traefik-hub-ai-gateway",
+      "name": "Traefik Hub AI Gateway",
+      "artifact_type": "tool",
+      "category": "AI Gateways and Proxies",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://traefik.io/solutions/ai-gateway",
+      "description": "Traefik Hub AI Gateway extends Traefik's API management layer with model routing, authentication, rate limiting, token controls, observability, and governance for LLM and agent traffic.",
+      "secondary_links": []
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--confident-ai",
+      "name": "Confident AI",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.confident-ai.com/",
+      "description": "Confident AI is the AI quality platform built for enterprise platform teams to standardize evals and observability across the organization—one consistent bar for how product teams measure and monitor their AI while governance continuously enforces that standard.",
+      "secondary_links": []
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--deepeval",
+      "name": "DeepEval",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/confident-ai/deepeval",
+      "description": "DeepEval is an open-source LLM evaluation framework that can score application outputs and traces with reusable metrics in development, CI, and production monitoring workflows. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://deepeval.com/docs/getting-started"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--evidently",
+      "name": "Evidently",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/evidentlyai/evidently",
+      "description": "Evidently is an open-source evaluation and monitoring framework with a managed cloud for LLM judges, text and tabular metrics, test suites, dashboards, and live quality monitoring. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.evidentlyai.com/"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--patronus-ai",
+      "name": "Patronus AI",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.patronus.ai/",
+      "description": "Patronus AI is an evaluation and monitoring platform for scoring LLM and agent interactions with built-in, custom, and proprietary evaluators, production traces, analytics, and alerts. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.patronus.ai/"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--openlayer",
+      "name": "Openlayer",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.openlayer.com/",
+      "description": "Openlayer is an AI quality platform for tests, CI checks, production monitoring, alerts, version comparisons, and governance across generative and predictive systems. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.openlayer.com/"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--fiddler",
+      "name": "Fiddler",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.fiddler.ai/",
+      "description": "Fiddler is an enterprise AI observability platform for monitoring model and LLM performance, drift, explanations, safety, and quality signals in production.",
+      "secondary_links": []
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--arthur-ai",
+      "name": "Arthur AI",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.arthur.ai/",
+      "description": "Arthur AI is an enterprise monitoring platform for model performance, explainability, drift, bias, and LLM quality and safety checks across production AI systems.",
+      "secondary_links": []
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--giskard-hub",
+      "name": "Giskard Hub",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://www.giskard.ai/",
+      "description": "Giskard Hub is a commercial testing and monitoring platform built alongside the open-source Giskard library, with automated evaluations, vulnerability scans, continuous testing, and reporting. GitHub",
+      "secondary_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Giskard-AI/giskard-oss"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--trulens",
+      "name": "TruLens",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/truera/trulens",
+      "description": "TruLens is an open-source library for instrumenting and evaluating LLM applications with feedback functions, trace records, dashboards, and production-oriented evaluation workflows. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.trulens.org/"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--ragas",
+      "name": "Ragas",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/vibrantlabsai/ragas",
+      "description": "Ragas is an open-source evaluation library for LLM applications that supplies reusable RAG and agent metrics and can score traced or logged interactions through integrations. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.ragas.io/"
+        }
+      ]
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--qualifire",
+      "name": "Qualifire",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.qualifire.ai/",
+      "description": "Qualifire is a runtime quality and safety platform that evaluates LLM inputs and outputs, applies policy, records incidents, and exposes monitoring and analytics for production applications.",
+      "secondary_links": []
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--databricks-mlflow-production-monitoring",
+      "name": "Databricks MLflow Production Monitoring",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/production-monitoring",
+      "description": "Databricks MLflow Production Monitoring continuously runs registered code-based or model-based scorers over sampled MLflow traces and attaches the results as feedback for analysis.",
+      "secondary_links": []
+    },
+    {
+      "id": "online-quality-evaluation-and-feedback-monitoring--cleanlab-tlm",
+      "name": "Cleanlab TLM",
+      "artifact_type": "tool",
+      "category": "Online Quality Evaluation and Feedback Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://cleanlab.ai/tlm/",
+      "description": "Cleanlab TLM is an API and platform that adds trustworthiness scores and explanations to LLM responses for filtering, routing, and monitoring uncertain outputs. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://help.cleanlab.ai/tlm/"
+        }
+      ]
+    },
+    {
+      "id": "agent-observability-and-session-replay--agentops",
+      "name": "AgentOps",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/AgentOps-AI/agentops",
+      "description": "AgentOps is an open-source SDK and service for recording agent sessions, tool calls, model calls, errors, costs, and replayable execution timelines across agent frameworks. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.agentops.ai/"
+        }
+      ]
+    },
+    {
+      "id": "agent-observability-and-session-replay--agentneo",
+      "name": "AgentNeo",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/raga-ai-hub/agentneo",
+      "description": "AgentNeo is an open-source Python SDK and self-hosted dashboard for tracing agents, LLM calls, tools, costs, execution time, and multi-agent graphs, with evaluation support. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.raga.ai/agentneo"
+        }
+      ]
+    },
+    {
+      "id": "agent-observability-and-session-replay--ragaai-catalyst",
+      "name": "RagaAI Catalyst",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+      "description": "RagaAI Catalyst is an agent testing and observability platform with trace management, execution graphs, evaluations, prompt and dataset management, guardrails, and production analytics. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.raga.ai/ragaai-catalyst"
+        }
+      ]
+    },
+    {
+      "id": "agent-observability-and-session-replay--openai-agents-sdk-tracing",
+      "name": "OpenAI Agents SDK Tracing",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/openai/openai-agents-python/blob/main/docs/tracing.md",
+      "description": "OpenAI Agents SDK Tracing records agent runs, model generations, tool calls, handoffs, guardrails, and custom spans and can send them to OpenAI's Traces dashboard or custom processors.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-observability-and-session-replay--crewai-amp",
+      "name": "CrewAI AMP",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.crewai.com/en/observability/tracing",
+      "description": "CrewAI AMP is CrewAI's managed platform for tracing Crews and Flows, including agent decisions, task timelines, tools, LLM calls, token usage, costs, errors, logs, and performance analytics.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-observability-and-session-replay--langgraph-platform",
+      "name": "LangGraph Platform",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.langchain.com/langgraph-platform",
+      "description": "LangGraph Platform is a managed runtime for stateful agents with deployment, thread and run inspection, time-travel debugging, streaming, and integrated LangSmith tracing. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.langchain.com/langgraph-platform"
+        }
+      ]
+    },
+    {
+      "id": "agent-observability-and-session-replay--amazon-bedrock-agentcore-observability",
+      "name": "Amazon Bedrock AgentCore Observability",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/observability.html",
+      "description": "Amazon Bedrock AgentCore Observability emits OpenTelemetry-compatible metrics, spans, and logs for agent runtimes, tools, gateways, memory, sessions, latency, token use, and errors through Amazon CloudWatch.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-observability-and-session-replay--google-cloud-agent-observability",
+      "name": "Google Cloud Agent Observability",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.cloud.google.com/stackdriver/docs/observability/agent-observability",
+      "description": "Google Cloud Agent Observability uses OpenTelemetry GenAI conventions to present agent metrics, topology, logs, token usage, latency, and execution traces across supported Google Cloud agent services.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-observability-and-session-replay--microsoft-foundry-agent-tracing",
+      "name": "Microsoft Foundry Agent Tracing",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept",
+      "description": "Microsoft Foundry Agent Tracing captures agent inputs, outputs, tools, retries, latency, and cost with OpenTelemetry and stores traces in Azure Monitor Application Insights.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-observability-and-session-replay--agentuity",
+      "name": "Agentuity",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://agentuity.com/product/observability",
+      "description": "Agentuity is an agent cloud with automatic OpenTelemetry tracing, structured logs, session timelines, production evaluations, token and cost attribution, and live deployment debugging.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-observability-and-session-replay--traccia",
+      "name": "Traccia",
+      "artifact_type": "tool",
+      "category": "Agent Observability and Session Replay",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/traccia-ai/traccia",
+      "description": "Traccia is an OpenTelemetry-native SDK and platform for agent tracing, token and cost tracking, registry, policy monitoring, governance evidence, and export to compatible backends. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://traccia.ai/docs"
+        }
+      ]
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--tokencost",
+      "name": "tokencost",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/AgentOps-AI/tokencost",
+      "description": "tokencost is an open-source library for counting tokens and estimating request costs across model providers from a maintained pricing table.",
+      "secondary_links": []
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--genai-prices",
+      "name": "genai-prices",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/pydantic/genai-prices",
+      "description": "genai-prices is an open-source package from Pydantic for calculating generative-model request costs from token and usage metadata, including provider-specific pricing dimensions.",
+      "secondary_links": []
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--vllm-production-metrics",
+      "name": "vLLM Production Metrics",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/vllm-project/vllm",
+      "description": "vLLM Production Metrics are Prometheus-compatible counters, gauges, and histograms exposed by the vLLM server for requests, queueing, cache use, token throughput, latency, and model execution. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.vllm.ai/"
+        }
+      ]
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--nvidia-dcgm-exporter",
+      "name": "NVIDIA DCGM Exporter",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/NVIDIA/dcgm-exporter",
+      "description": "NVIDIA DCGM Exporter exposes GPU health, utilization, memory, power, and interconnect metrics in Prometheus format for monitoring self-hosted inference infrastructure.",
+      "secondary_links": []
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--prometheus",
+      "name": "Prometheus",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/prometheus/prometheus",
+      "description": "Prometheus is an open-source metrics and alerting system commonly used to scrape model servers, gateways, collectors, and GPU exporters and to alert on LLM operational signals. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://prometheus.io/docs/"
+        }
+      ]
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--opencost",
+      "name": "OpenCost",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/opencost/opencost",
+      "description": "OpenCost is an open-source specification and implementation for attributing Kubernetes infrastructure costs, including GPU-backed inference workloads, by cluster, namespace, workload, and label.",
+      "secondary_links": []
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--guidellm",
+      "name": "GuideLLM",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/vllm-project/guidellm",
+      "description": "GuideLLM is an open-source benchmarking tool from the vLLM project for measuring latency, throughput, concurrency behavior, and saturation limits of LLM serving endpoints.",
+      "secondary_links": []
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--nvidia-genai-perf",
+      "name": "NVIDIA GenAI-Perf",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/triton-inference-server/perf_analyzer/tree/main/genai-perf",
+      "description": "NVIDIA GenAI-Perf is an open-source command-line tool for measuring generative-model serving metrics such as time to first token, inter-token latency, throughput, and request latency.",
+      "secondary_links": []
+    },
+    {
+      "id": "cost-latency-and-inference-performance-monitoring--llmperf",
+      "name": "LLMPerf",
+      "artifact_type": "tool",
+      "category": "Cost, Latency, and Inference Performance Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/ray-project/llmperf",
+      "description": "LLMPerf is an open-source Ray project for load-testing LLM APIs and reporting latency, token throughput, request throughput, and correctness checks on returned responses.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--deepteam",
+      "name": "DeepTeam",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/confident-ai/deepteam",
+      "description": "DeepTeam is an open-source LLM red-teaming framework for probing AI systems with configurable attacks and vulnerability checks covering safety, privacy, security, and agent behavior. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://trydeepteam.com/docs/getting-started"
+        }
+      ]
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--lakera-guard",
+      "name": "Lakera Guard",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.lakera.ai/lakera-guard",
+      "description": "Lakera Guard is a runtime security API for detecting prompt injection, jailbreaks, harmful content, and sensitive data in LLM inputs and outputs, with policy and threat analytics.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--cisco-ai-defense",
+      "name": "Cisco AI Defense",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.cisco.com/site/us/en/products/security/ai-defense/index.html",
+      "description": "Cisco AI Defense is an enterprise security platform for discovering AI usage, validating models and applications, inspecting runtime traffic, enforcing policy, and recording security events.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--palo-alto-prisma-airs",
+      "name": "Palo Alto Prisma AIRS",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security",
+      "description": "Palo Alto Prisma AIRS is an AI security platform that monitors and protects prompts, responses, models, data flows, tools, and agents with runtime inspection, policy enforcement, posture management, and red teaming.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--hiddenlayer-ai-runtime-security",
+      "name": "HiddenLayer AI Runtime Security",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.hiddenlayer.com/platform/ai-runtime-security",
+      "description": "HiddenLayer AI Runtime Security monitors model inputs, outputs, agent workflows, and tool use to detect prompt attacks, unsafe content, data exposure, and anomalous behavior, with blocking and investigation workflows.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--sentinelone-prompt-security",
+      "name": "SentinelOne Prompt Security",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.sentinelone.com/platform/securing-ai-prompt/",
+      "description": "SentinelOne Prompt Security provides discovery, real-time governance, data-loss prevention, threat protection, and policy controls across employee AI tools, custom applications, and autonomous agents.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--mindgard",
+      "name": "Mindgard",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.mindgard.ai/",
+      "description": "Mindgard is an AI security testing and runtime platform for discovering AI assets, assessing model and application vulnerabilities, monitoring threats, and integrating findings with security workflows.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--llm-guard",
+      "name": "LLM Guard",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/protectai/llm-guard",
+      "description": "LLM Guard is an open-source toolkit from Protect AI that scans and sanitizes LLM prompts and responses for injection, secrets, PII, toxicity, malicious URLs, and other configurable risks.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--enkrypt-ai-guardrails",
+      "name": "Enkrypt AI Guardrails",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.enkryptai.com/product/agent-guardrails",
+      "description": "Enkrypt AI Guardrails is a runtime policy layer that approves, modifies, or blocks risky prompts, retrievals, responses, MCP calls, and agent tool actions while recording audit-ready decisions.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--noma-security",
+      "name": "Noma Security",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://noma.security/platform/runtime-protection/",
+      "description": "Noma Security monitors prompts, responses, tool calls, MCP traffic, and agent-to-agent communication in real time and applies detection, masking, blocking, audit logging, and compliance policies.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--cranium",
+      "name": "Cranium",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://cranium.ai/platform/",
+      "description": "Cranium is an AI security and governance platform for discovering models and agents, monitoring drift and data exposure, tracking tool use, enforcing controls, and generating compliance evidence.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--llamafirewall",
+      "name": "LlamaFirewall",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall",
+      "description": "LlamaFirewall is Meta's open-source runtime guardrail framework for agentic systems, combining prompt-injection detection, agent-alignment checks, and code-safety analysis.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--google-cloud-model-armor",
+      "name": "Google Cloud Model Armor",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://cloud.google.com/security-command-center/docs/model-armor-overview",
+      "description": "Google Cloud Model Armor screens prompts and responses for prompt injection, jailbreaks, harmful content, malicious URLs, and sensitive data and exposes findings for centralized security operations.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--azure-ai-content-safety",
+      "name": "Azure AI Content Safety",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety",
+      "description": "Azure AI Content Safety provides APIs and controls for content classification, prompt-attack detection, groundedness checks, custom categories, blocklists, and monitoring of moderation outcomes.",
+      "secondary_links": []
+    },
+    {
+      "id": "security-compliance-and-runtime-policy-monitoring--amazon-bedrock-guardrails",
+      "name": "Amazon Bedrock Guardrails",
+      "artifact_type": "tool",
+      "category": "Security, Compliance, and Runtime Policy Monitoring",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://aws.amazon.com/bedrock/guardrails/",
+      "description": "Amazon Bedrock Guardrails applies configurable content filters, denied topics, sensitive-information controls, contextual grounding checks, and automated reasoning checks and records interventions for monitoring.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--datadog-agent-observability",
+      "name": "Datadog Agent Observability",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.datadoghq.com/products/ai/agent-observability/",
+      "description": "Datadog Agent Observability traces LLM and agent workflows and monitors token usage, cost, latency, errors, quality, privacy, and safety alongside Datadog APM, infrastructure, logs, and user-experience telemetry. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.datadoghq.com/llm_observability/"
+        }
+      ]
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--new-relic-ai-monitoring",
+      "name": "New Relic AI Monitoring",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.newrelic.com/docs/ai-monitoring/intro-to-ai-monitoring/",
+      "description": "New Relic AI Monitoring adds model, token, cost, feedback, prompt-response, tool, and agent trace views to New Relic APM and accepts OpenTelemetry GenAI traces.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--sentry-ai-monitoring",
+      "name": "Sentry AI Monitoring",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://docs.sentry.io/ai/monitoring/",
+      "description": "Sentry AI Monitoring captures agent runs, LLM calls, tools, handoffs, conversations, tokens, cost, latency, and errors and connects those spans to Sentry's application traces and error context.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--dynatrace-ai-observability",
+      "name": "Dynatrace AI Observability",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.dynatrace.com/docs/observe/dynatrace-for-ai-observability",
+      "description": "Dynatrace AI Observability correlates OpenTelemetry and OpenLLMetry data for models, agents, tools, vector databases, services, infrastructure, token usage, cost, latency, errors, and root-cause analysis.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--grafana-cloud-ai-observability",
+      "name": "Grafana Cloud AI Observability",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://grafana.com/docs/grafana-cloud/machine-learning/ai-observability/",
+      "description": "Grafana Cloud AI Observability is an OpenTelemetry-based service for monitoring LLM conversations, agents, quality, cost, tokens, latency, tools, traces, metrics, and logs across the Grafana stack.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--elastic-llm-and-agentic-ai-observability",
+      "name": "Elastic LLM and Agentic AI Observability",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://www.elastic.co/docs/solutions/observability/applications/llm-observability",
+      "description": "Elastic LLM and Agentic AI Observability uses Elastic APM, OpenTelemetry, logs, metrics, traces, and prebuilt dashboards to monitor prompts, responses, model calls, tools, token use, latency, errors, and cost.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--honeycomb-agent-timeline",
+      "name": "Honeycomb Agent Timeline",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.honeycomb.io/investigate/observe/agent-timeline",
+      "description": "Honeycomb Agent Timeline renders OpenTelemetry GenAI spans as conversation and multi-agent timelines with model calls, tools, messages, errors, token usage, latency, and related service traces.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--ibm-instana-ai-agent-and-llm-observability",
+      "name": "IBM Instana AI Agent and LLM Observability",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.ibm.com/products/instana/ai-agent-llm-observability",
+      "description": "IBM Instana AI Agent and LLM Observability discovers AI components and correlates agent workflows, models, tools, vector databases, quality evaluations, cost, tokens, latency, and infrastructure telemetry.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--coralogix-ai-center",
+      "name": "Coralogix AI Center",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://coralogix.com/cx/platform/ai-observability/",
+      "description": "Coralogix AI Center ingests OpenTelemetry GenAI traces and provides session exploration, production evaluators, guardrails, cost analytics, security posture, and correlation with application observability data.",
+      "secondary_links": []
+    },
+    {
+      "id": "cloud-and-apm-suites-with-llm-observability--amazon-cloudwatch-genai-observability",
+      "name": "Amazon CloudWatch GenAI Observability",
+      "artifact_type": "tool",
+      "category": "Cloud and APM Suites with LLM Observability",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html",
+      "description": "Amazon CloudWatch GenAI Observability provides managed views, traces, metrics, logs, quality signals, token usage, latency, and errors for Bedrock, AgentCore, and externally instrumented generative-AI workloads.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--whylogs",
+      "name": "whylogs",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/whylabs/whylogs",
+      "description": "whylogs is an open-source library and data-logging standard that creates mergeable statistical profiles for monitoring data quality, drift, and model inputs or outputs without storing raw records.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--nannyml",
+      "name": "NannyML",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/NannyML/nannyml",
+      "description": "NannyML is an open-source monitoring library with a commercial cloud for estimating post-deployment model performance, detecting covariate shift, and identifying data-quality changes when targets are delayed or absent.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--deepchecks",
+      "name": "Deepchecks",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/deepchecks/deepchecks",
+      "description": "Deepchecks is an open-source testing package with a commercial monitoring platform for data integrity, drift, model performance, validation suites, and alerting across machine-learning systems.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--alibi-detect",
+      "name": "Alibi Detect",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/SeldonIO/alibi-detect",
+      "description": "Alibi Detect is an open-source Python library for outlier, adversarial, concept-drift, and data-drift detection on tabular, text, image, and time-series data.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--great-expectations",
+      "name": "Great Expectations",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/great-expectations/great_expectations",
+      "description": "Great Expectations is an open-source framework for expressing, validating, documenting, and monitoring data-quality expectations in pipelines that may feed retrieval, evaluation, or model systems.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--fairlearn",
+      "name": "Fairlearn",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/fairlearn/fairlearn",
+      "description": "Fairlearn is an open-source Python package for assessing disparities with fairness metrics and for mitigating unfairness in supervised machine-learning models.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-ml-and-data-monitoring--ai-fairness-360",
+      "name": "AI Fairness 360",
+      "artifact_type": "tool",
+      "category": "Classic ML and Data Monitoring",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Trusted-AI/AIF360",
+      "description": "AI Fairness 360 is an open-source toolkit from IBM and LF AI & Data containing fairness metrics, explanations, and bias-mitigation algorithms for datasets and machine-learning models.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--literal-ai",
+      "name": "Literal AI",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://docs.literalai.com/more/migration-guide",
+      "description": "Literal AI was a hosted LLM observability, evaluation, and prompt-management platform that was discontinued on October 31, 2025, with its official migration guide directing users to export data.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--whylabs-platform",
+      "name": "WhyLabs Platform",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://docs.whylabs.ai/docs/open-source-project/",
+      "description": "WhyLabs Platform was a hosted AI observability service whose SaaS access ended in March 2025 after the company discontinued operations; its platform code and the whylogs and LangKit projects remain available.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--humanloop",
+      "name": "Humanloop",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://humanloop.com/docs/v5/changelog/2025/08.md",
+      "description": "Humanloop was a prompt, evaluation, and observability platform that sunset on September 8, 2025 following the team's acquisition by Anthropic.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--neptune",
+      "name": "Neptune",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://docs.neptune.ai/transition_hub",
+      "description": "Neptune was an experiment-tracking platform whose hosted app and API were permanently shut down on March 5, 2026 following its acquisition by OpenAI.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--tensorzero",
+      "name": "TensorZero",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://github.com/tensorzero/tensorzero",
+      "description": "TensorZero was an open-source LLM gateway, observability, evaluation, and optimization platform whose repository was archived and made read-only on June 12, 2026 after its final June release.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--truera-ai-observability-platform",
+      "name": "TruEra AI Observability Platform",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://truera.com/snowflake-is-acquiring-the-truera-ai-observability-platform/",
+      "description": "TruEra AI Observability Platform provided model and LLM evaluation, monitoring, explainability, and debugging before Snowflake acquired the platform in 2024; the separate open-source TruLens project continues.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--robust-intelligence",
+      "name": "Robust Intelligence",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.cisco.com/site/us/en/products/security/ai-defense/robust-intelligence-is-part-of-cisco/index.html",
+      "description": "Robust Intelligence was an AI security platform for model validation, red teaming, and runtime protection that Cisco acquired in 2024 and incorporated into Cisco AI Defense and Foundation AI.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--aporia",
+      "name": "Aporia",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://coralogix.com/blog/coralogix-acquires-aporia/",
+      "description": "Aporia was an AI observability and guardrails platform that Coralogix acquired in December 2024 and integrated into its AI research center and AI observability offering.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--calypsoai",
+      "name": "CalypsoAI",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.f5.com/company/blog/securing-ai-the-future-is-runtime",
+      "description": "CalypsoAI was an AI runtime-security and red-teaming company acquired by F5 in September 2025, with its technology subsequently released through F5 AI Guardrails and F5 AI Red Team.",
+      "secondary_links": []
+    }
+  ]
+}
