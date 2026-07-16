@@ -339,7 +339,7 @@ How this directory is built and maintained. This section exists so readers and a
 - **Counts.** The stated **11 categories** include ten active categories plus the historical category. The stated **120 entries** count each tool-table row once, including nine historical rows; papers, glossary items, FAQ entries, and navigation rows are not counted.
 - **Lifecycle handling.** Products that shut down, are archived, or cease to exist independently move to [Discontinued and Historical Tools](#discontinued-and-historical-tools) with a primary-source status note instead of being silently removed.
 - **Corrections.** Product scope and lifecycle change quickly. Open an [issue](https://github.com/aglio-lab/llm-observability-tools/issues) or [pull request](https://github.com/aglio-lab/llm-observability-tools/pulls) with a primary source, and factual corrections will be prioritized.
-- **Maintainer disclosure.** This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam. The three are separate entities; their entries receive no paid placement and follow the same sourcing and description rules.
+- **Editorial independence.** This directory is maintained by aglio-lab. Every entry follows the same sourcing, wording, and ordering rules, and no placement is sold.
 
 ## Related Lists and Resources
 
