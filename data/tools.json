@@ -1248,14 +1248,14 @@
       "secondary_links": []
     },
     {
-      "id": "security-compliance-and-runtime-policy-monitoring--gram",
-      "name": "Gram",
+      "id": "security-compliance-and-runtime-policy-monitoring--speakeasy-ai-control-plane",
+      "name": "Speakeasy AI Control Plane",
       "artifact_type": "tool",
       "category": "Security, Compliance, and Runtime Policy Monitoring",
-      "availability": "open-source",
+      "availability": "commercial",
       "status": "active",
-      "primary_url": "https://github.com/speakeasy-api/gram",
-      "description": "Gram is an open-source AI control plane for governing access to MCPs, Skills, and Assistants with policy enforcement, threat detection, and searchable event records.",
+      "primary_url": "https://www.speakeasy.com/product/ai-control-plane",
+      "description": "Speakeasy AI Control Plane governs agent and MCP access with role-scoped permissions, policy enforcement, and auditable tool-call records.",
       "secondary_links": []
     },
     {
